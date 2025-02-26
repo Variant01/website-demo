@@ -13,10 +13,10 @@ class CommonHeader extends HTMLElement{
                 <a href="software.html" title="go to software page">SOFTWARE</a>
             </div>
             <div class="header-right">
-                <a href="index.html" ><img src="images/search.png" height="25" width="25" alt="search" title="search"></a>
-                <a href="index.html" ><img src="images/cart.png" height="25" width="25" alt="cart" title="cart"></a>
-                <a href="index.html" ><img src="images/account.png" height="25" width="25" alt="account" title="account"></a>
-                <a href="index.html" ><img src="images/hamburger.png" height="25" width="25" alt="menu" title="menu"></a>
+                <a href="index.html" ><i class="fas fa-search" alt="search" title="search"></i></a>
+                <a href="index.html" ><i class="fas fa-shopping-cart" alt="cart" title="cart"></i></a>
+                <a href="index.html" ><i class="fas fa-user" alt="account" title="account"></i></a>
+                <a href="index.html" ><i class="fas fa-bars menu-icon" alt="menu" title="menu"></i></a>
             </div>
         </header>
         `
@@ -46,12 +46,13 @@ class CommonFooter extends HTMLElement{
             </div>
             <div class="footer-right">
                 <ul>
-                    <li>CONNECT WITH US</li>
+                    <li>Connect with us</li>
                     <li>
-                        <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" height="20" width="20" alt="facebook" title="facebook"></a>
-                        <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" height="20" width="20" alt="instagram" title="instagram"></a>
-                        <a href="https://youtube.com" target="_blank"><img src="images/youtube.png" height="20" width="20" alt="youtube" title="youtube"></a>
-                        <a href="https://x.com" target="_blank"><img src="images/x.png" height="20" width="20" alt="x" title="x"></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook" alt="facebook" title="facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram" alt="instagram" title="instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube" alt="youtube" title="youtube"></i></a>
+                        <a href="https://x.com" target="_blank"><i class="fab fa-twitter" alt="x" title="x"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin" alt="linkedin" title="linkedin"></i></a>
                     </li>
                 </ul>     
             </div>

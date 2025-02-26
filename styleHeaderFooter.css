@@ -24,7 +24,7 @@ header, footer {
 .header-middle a:hover{
     background-color: rgb(53, 53, 53);
     border-radius: 5px;
-    color: rgb(221, 236, 236);
+    color: rgb(209, 209, 209);
 }
 .header-middle a:active{
     background-color: rgb(83, 83, 83);
@@ -32,10 +32,15 @@ header, footer {
     color: black;
 }
 .header-middle a {
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: azure;
     font-size: medium;
+}
+.header-right a {
+    padding: 2px;
+    text-decoration: none;
+    color: azure;
 }
 main{
     background-image: radial-gradient(white, rgb(243, 243, 243), rgb(187, 187, 187));
