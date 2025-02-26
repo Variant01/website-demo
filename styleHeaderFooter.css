@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header, footer {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+    padding: 20px;
+}
+
+.header-left, .header-middle, .header-right {
+    padding: 25px;
+}
+.header-left a {
+    text-decoration: none;
+    color: azure;
+    font-size: xx-large;
+}
+.header-middle a:hover{
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    color: rgb(221, 236, 236);
+}
+.header-middle a:active{
+    background-color: rgb(83, 83, 83);
+    border-radius: 5px;
+    color: black;
+}
+.header-middle a {
+    padding: 20px;
+    text-decoration: none;
+    color: azure;
+    font-size: medium;
+}
+main{
+    background-image: radial-gradient(white, rgb(243, 243, 243), rgb(187, 187, 187));
+    height: 1500px;
+}
+.footer-left, .footer-middle, .footer-right {
+    padding: 20px;
+}
+.footer-left ul, .footer-middle ul, .footer-right ul {
+    list-style: none;
+    font-size: small;
+    padding: 0px; 
+    margin: 10px;
+    line-height: 2.0;
+}
+.footer-left a, .footer-middle a, .footer-right a {
+    text-decoration: none;
+    color: azure;
+    padding-left: 2.5px;
+}
