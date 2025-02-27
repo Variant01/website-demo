@@ -15,7 +15,7 @@ class CommonHeader extends HTMLElement{
             <div class="header-right">
                 <a href="index.html" ><i class="fas fa-search" alt="search" title="search"></i></a>
                 <a href="index.html" ><i class="fas fa-shopping-cart" alt="cart" title="cart"></i></a>
-                <a href="index.html" ><i class="fas fa-user" alt="account" title="account"></i></a>
+                <a href="account.html" ><i class="fas fa-user" alt="account" title="account"></i></a>
                 <a href="index.html" ><i class="fas fa-bars menu-icon" alt="menu" title="menu"></i></a>
             </div>
         </header>
