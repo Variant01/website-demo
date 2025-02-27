@@ -29,7 +29,7 @@ class CommonFooter extends HTMLElement{
             <div class="footer-left">
                 <ul>
                     <li><a href="index.html" title="">About us</a></li>
-                    <li><a href="index.html" title="">Contact us</a></li>
+                    <li><a href="contact.html" title="">Contact us</a></li>
                     <li><a href="index.html" title="">Support</a></li>
                     <li><a href="index.html" title="">FAQs</a></li>
                     <li><small>&copy All rights reserved</small></li>

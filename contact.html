@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styleHeaderFooter.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/logo" href="images/Untitled.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+    <body>
+        <common-header></common-header>
+
+        <main>
+            <div class="container">
+                <div class="form-box" id="contact-form">
+                    <form action="">
+                        <h2>Get in touch</h2>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="phoneno" placeholder="Phone number" pattern="(10){0,9}" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button type="submit" name="send">Send</button>
+                        <p><i class="fa-solid fa-phone" alt="phone" title="phone"></i>91-9999999999<a href="mailto:website@support.com"></i><i class="fa-solid fa-envelope" alt="mail" title="mail"></i>website@support.com</a></p>
+                        <p>10AM - 6PM</p>
+                        <p>MON - FRI</p>
+                        <p>Please note that we can only respond to your email queries during work hours.</p>
+                    </form>
+                </div>
+                <div class="map">
+                    <h2>Visit us at our store</h2>
+                    <p><i class="fa-solid fa-location-dot" alt="phone" title="phone"></i>Address: somewhere, somehow, 99999</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3595.1004937228035!2d92.02301699999998!3d25.75013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDQ1JzAwLjUiTiA5MsKwMDEnMjcuNSJF!5e0!3m2!1sen!2sin!4v1740684944723!5m2!1sen!2sin" width="380" height="680" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+
+        <common-footer></common-footer>
+        <script src="./headerFooterManager.js"></script>
+    </body>
+</html>
