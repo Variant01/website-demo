@@ -82,6 +82,17 @@ main{
     color: azure;
     padding-left: 2.5px;
 }
+.footer-bottom {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: rgb(178, 189, 189);
+    text-decoration: none;
+    font-weight: light;
+    font-size: small;
+}
 
 @media (max-width: 768px) {
     header, footer {

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styleHeaderFooter.css">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="icon" type="image/logo" href="images/Untitled.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <common-header></common-header>
+
+    <main>
+        <div class="faq-container">
+            <h1>Frequently asked questions</h1>
+            <p>Have any inquiries? please feel free to search for a specific topic or explore the sections below before leaving a question</p>
+            <div class="tabs">
+            <button class="tab-button active" onclick="showTab('orders')">Orders</button>
+            <button class="tab-button" onclick="showTab('shipping')">Shipping</button>
+            <button class="tab-button" onclick="showTab('payment')">Payment</button>
+            <button class="tab-button" onclick="showTab('warranty')">Warranty</button>
+        </div>
+
+        <div id="orders" class="accordion">
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">How Do I Cancel My Order? <span class="icon">+</span></div>
+                <div class="answer">You can only cancel your order if it is not dispatched from our store.<br>
+                    In case you still wish to cancel the order, please contact our support team.<br><br>
+                    To cancel the order:<br>
+                    Login to your account > Go to Manage your Order > Cancel the desired order
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">Can I Change My Delivery Address? <span class="icon">+</span></div>
+                <div class="answer">Yes, you can change your delivery address if the order is not yet dispatched from our store.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">I received a wrong product, what should I do? <span class="icon">+</span></div>
+                <div class="answer">Get in touch with our support team within 24 hours, along with some images & unboxing video of the incorrect product received. Our support team will resolve your issue as soon as possible.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">How  do I return the  product? <span class="icon">+</span></div>
+                <div class="answer">Unfortunately we do not accept return. We may only approve requests for returns only if the item has a manufacturing defect and cannot be replaced.</div>
+            </div>
+        </div>
+
+        <div id="shipping" class="accordion">
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">When will my order be shipped? <span class="icon">+</span></div>
+                <div class="answer">Orders are typically shipped out within 24 to 48 hours.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">How do I track my order? <span class="icon">+</span></div>
+                <div class="answer">Once the order has been shipped out of our store, a whatsapp message will be sent to your phone no. with the tracking number.<br><br>
+                    Alternatively, you can track your order by:<br>
+                    Login to your account > Go to Manage your Order > Select the order > click on track</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">Where is my order? <span class="icon">+</span></div>
+                <div class="answer">Once your product has been shipped, our logistics partner will handle the delivery. In case you are facing unexpected delays in delivery, you can always contact our support team for assistance.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">I am not available to pickup my order? <span class="icon">+</span></div>
+                <div class="answer">You can always give the product OTP for receiving the order to you neighbour to assist in receiving your order.</div>
+            </div>
+        </div>
+
+        <div id="payment" class="accordion">
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">What payment methods are available? <span class="icon">+</span></div>
+                <div class="answer">You can choose to pay using the following options:
+                        <ul>
+                        <li>UPI/QR</li>
+                        <li>Credit or debit card payment</li>
+                        <li>Net Banking</li>
+                        <li>Wallets: PayTM, PhonePe, Amazon Pay, etc.</li>
+                        <li>Cash on delivery</li>
+                    </ul></div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">When will my refund be issued if I cancel my order?<span class="icon">+</span></div>
+                <div class="answer">Refunds ussually take up to 7 days to be processed by the bank and credited back to your account.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">Do I need to pay any additional taxes or fees? <span class="icon">+</span></div>
+                <div class="answer">All prices on the website are inclusive of all taxes, and no additional amount will be charged to you. Some products may have additional shipping fees.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">Cash on delivery is not available in my region? <span class="icon">+</span></div>
+                <div class="answer">Unfortunately our logistic partner may not offer Cash on Delivery on your region, we are currently working to improve our services.</div>
+            </div>
+        </div>
+
+        <div id="warranty" class="accordion">
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">Is there warranty on the products? <span class="icon">+</span></div>
+                <div class="answer">Most of the products warranty are handle my us and come with a domestic limited warranty. However some companies, may manage their own warranties.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">How do I file a warranty claim? <span class="icon">+</span></div>
+                <div class="answer">If you are experiencing problems with your product, you can fill out an RMA form and Get in touch with us so that we will assist you further.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">How long will it take the RMA team to service the product?<span class="icon">+</span></div>
+                <div class="answer">Once the RMA team receives the product, it may takes up to 1-2 weeks to resolve your issue.</div>
+            </div>
+            <div class="accordion-item">
+                <div class="question" onclick="toggleAnswer(this)">Where can I find the software for my device?<span class="icon">+</span></div>
+                <div class="answer">You can easily find your device’s software on our website under the respective product page, support page and product official websites or you can Get in touch with us for any further assistance.</div>
+            </div>
+        </div>
+
+    </main>
+
+    <common-footer></common-footer>
+
+    <script src="faq.js"></script>
+    <script src="./headerFooterManager.js"></script>
+</body>
+</html>

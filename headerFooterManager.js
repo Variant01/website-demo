@@ -31,8 +31,8 @@ class CommonFooter extends HTMLElement{
                     <li><a href="index.html" title="">About us</a></li>
                     <li><a href="contact.html" title="">Contact us</a></li>
                     <li><a href="index.html" title="">Support</a></li>
-                    <li><a href="index.html" title="">FAQs</a></li>
-                    <li><small>&copy All rights reserved</small></li>
+                    <li><a href="faq.html" title="">FAQs</a></li>
+                    <li></li>
                 </ul>
             </div>
             <div class="footer-middle">
@@ -41,7 +41,6 @@ class CommonFooter extends HTMLElement{
                     <li><a href="index.html" title="">Privacy Policy</a></li>
                     <li><a href="index.html" title="">Sustainability</a></li>
                     <li><a href="index.html" title="">E-Waste Management</a></li>
-                    <li><a href="https://website.com" title="go to website" target="_blank"><small>WEBSITE 2025</small></a></li>
                 </ul>
             </div>
             <div class="footer-right">
@@ -54,7 +53,10 @@ class CommonFooter extends HTMLElement{
                         <a href="https://x.com" target="_blank"><i class="fab fa-twitter" alt="x" title="x"></i></a>
                         <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin" alt="linkedin" title="linkedin"></i></a>
                     </li>
-                </ul>     
+                </ul>
+            </div>
+            <div class="footer-bottom">  
+                <p>&copy WEBSITE 2025<p>
             </div>
         </footer>
         `
