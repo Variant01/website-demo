@@ -12,12 +12,23 @@ class CommonHeader extends HTMLElement{
                 <a href="accessories.html" title="go to accessories page">ACCESSORIES</a>
                 <a href="software.html" title="go to software page">SOFTWARE</a>
             </div>
+            <div class="categories-container">
+                <button class="categories-button" onclick="toggleCategories()">CATEGORIES<i class="fa-solid fa-caret-down"></i></button>
+            </div>
             <div class="header-right">
                 <a href="index.html" ><i class="fas fa-search" alt="search" title="search"></i></a>
                 <a href="index.html" ><i class="fas fa-shopping-cart" alt="cart" title="cart"></i></a>
                 <a href="account.html" ><i class="fas fa-user" alt="account" title="account"></i></a>
                 <a href="index.html" ><i class="fas fa-bars menu-icon" alt="menu" title="menu"></i></a>
             </div>
+
+            <nav class="categories-menu">
+                <a href="deals.html" title="Deals">DEALS</a>
+                <a href="prebuilt.html" title="Prebuilt">PREBUILT</a>
+                <a href="custom.html" title="Custom">CUSTOM</a>
+                <a href="accessories.html" title="Accessories">ACCESSORIES</a>
+                <a href="software.html" title="Software">SOFTWARE</a>
+            </nav>
         </header>
         `
     }
@@ -61,6 +72,11 @@ class CommonFooter extends HTMLElement{
         </footer>
         `
     }
+}
+
+function toggleCategories() {
+    const menu = document.querySelector('.categories-menu');
+    menu.classList.toggle('active');
 }
 
 customElements.define('common-header', CommonHeader)

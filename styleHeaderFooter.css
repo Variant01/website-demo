@@ -111,9 +111,16 @@ main{
     }
 }
 
+.categories-button {
+    display: none;
+}
+
 @media (max-width: 480px) {
     .header-left a {
         font-size: 1.5rem;
+    }
+    .header-middle {
+        display: none; 
     }
     .header-right a {
         font-size: 1rem;
@@ -122,4 +129,46 @@ main{
     .footer-left ul, .footer-middle ul, .footer-right ul {
         font-size: 0.75rem;
     }
+    .categories-button {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: azure;
+        background-color: transparent;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
+.categories-button i{
+    padding-left: 10px;
+}
+
+.categories-menu {
+    display: none;
+    position: absolute;
+    top: 60px; 
+    right: 10px;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    flex-direction: column;
+}
+
+.categories-menu a {
+    color: azure;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.categories-menu a:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.categories-menu.active {
+    display: flex;
 }
