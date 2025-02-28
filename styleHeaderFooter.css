@@ -116,6 +116,14 @@ main{
 }
 
 @media (max-width: 480px) {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-left, .header-right{
+        padding: 0px;
+    }
     .header-left a {
         font-size: 1.5rem;
     }

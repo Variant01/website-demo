@@ -12,7 +12,7 @@ class CommonHeader extends HTMLElement{
                 <a href="accessories.html" title="go to accessories page">ACCESSORIES</a>
                 <a href="software.html" title="go to software page">SOFTWARE</a>
             </div>
-            <div class="categories-container">
+                        <div class="categories-container">
                 <button class="categories-button" onclick="toggleCategories()">CATEGORIES<i class="fa-solid fa-caret-down"></i></button>
             </div>
             <div class="header-right">
@@ -21,6 +21,7 @@ class CommonHeader extends HTMLElement{
                 <a href="account.html" ><i class="fas fa-user" alt="account" title="account"></i></a>
                 <a href="index.html" ><i class="fas fa-bars menu-icon" alt="menu" title="menu"></i></a>
             </div>
+
 
             <nav class="categories-menu">
                 <a href="deals.html" title="Deals">DEALS</a>
